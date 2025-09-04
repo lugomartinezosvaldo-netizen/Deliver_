@@ -1,0 +1,95 @@
+/* Fondo de la página */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('Imagen de WhatsApp 2025-09-03 a las 21.22.53_dd5fd91c.jpg'); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Contenedor central */
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para resaltar texto */
+    padding: 30px 50px;
+    border-radius: 10px;
+}
+
+/* Título */
+h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+
+/* Botón */
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6600;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e65c00;
+}
+
+
+
+
+
+/* Nombre del vape sobre la imagen */
+.nombre-vape {
+    color: white;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+/* Imagen del vape */
+.imagen-vape {
+    width: 300px; /* ajusta el tamaño como quieras */
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* espacio entre los botones */
+    margin-top: 20px;
+}
+
+/* Contenedor horizontal: imagen + sabores */
+.contenido-flex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px; /* espacio entre imagen y sabores */
+    margin-top: 20px;
+}
+
+/* Lista de sabores */
+.sabores h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.sabores ul {
+    list-style: none; /* sin viñetas */
+    padding: 0;
+}
+
+.sabores li {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 5px;
+}

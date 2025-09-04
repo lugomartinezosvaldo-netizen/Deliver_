@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waka - Nuestros Vapes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <!-- Nombre del modelo -->
+        <h1 class="nombre-vape"></h1>
+        
+        <!-- Contenedor principal: imagen + sabores -->
+        <div class="contenido-flex">
+            <!-- Imagen del vape -->
+            <img src="Imagen de WhatsApp 2025-09-04 a las 00.02.17_a0a47350.jpg" alt="Waka 25" class="imagen-vape">
+
+            <!-- Sabores -->
+            <div class="sabores">
+                <h2>Sabores:</h2>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Botones -->
+        <div class="botones">
+            <a href="index.html"><button>Regresar</button></a>
+            <button id="siguienteBtn">Siguiente</button>
+        </div>
+    </div>
+
+    <script>
+        const siguienteBtn = document.getElementById('siguienteBtn');
+
+        // Al hacer clic en "Siguiente", abrir packspod.html
+        siguienteBtn.addEventListener('click', () => {
+            window.location.href = "packspod.html";
+        });
+    </script>
+</body>
+</html>
