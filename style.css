@@ -129,3 +129,12 @@ button {
         font-size: 18px;
     }
 }
+body {
+    margin: 0; /* Para que no haya espacios alrededor */
+    padding: 0;
+    background-image: url("Imagen de WhatsApp 2025-09-03 a las 21.22.53_dd5fd91c.jpg"); /* Cambia por tu ruta */
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+    background-repeat: no-repeat; /* Evita que se repita */
+    background-position: center center; /* Centra la imagen */
+    height: 100vh; /* Asegura que ocupe toda la altura de la pantalla */
+}
