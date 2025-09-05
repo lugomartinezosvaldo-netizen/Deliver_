@@ -93,3 +93,39 @@ button:hover {
     font-size: 18px;
     margin-bottom: 5px;
 }
+
+/* Para pantallas pequeñas */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    button {
+        width: 100%;
+        font-size: 18px;
+    }
+}
+/* Hacer que la imagen se ajuste al contenedor */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Botones adaptables */
+button {
+    width: 45%;
+    margin: 5px;
+    font-size: 16px;
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 600px) {
+    .container {  /* suponiendo que tengas un div contenedor */
+        padding: 10px;
+    }
+    button {
+        width: 100%;
+        font-size: 18px;
+    }
+}
